@@ -1,0 +1,14 @@
+/* Assim voce acessa o mo modo global, ficando aplicado em toda as aplicação */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Faz com que o padding e margin não aumente o tamanho do elemento */
+}
+
+body { 
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
