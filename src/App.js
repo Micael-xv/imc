@@ -1,3 +1,5 @@
+import './app.css'; // importando o css, para que ele seja renderisado na tela
+
 export default function App() { // isso é um componente e precisar ser esportado, então é usado o export default, e é importado no index.js
   return ( // dentro do return eu coloco o que eu quero que seja renderisado!
     <div className="app">
@@ -10,11 +12,12 @@ export default function App() { // isso é um componente e precisar ser esportad
           placeholder="Peso em (kg) Ex: 75" 
         />
         <input 
-          type="text" 
+          type="text"
           placeholder="Altura em (cm) Ex: 185" 
         />
         <button>Calcular</button>
       </div>
+      <h2>Seu imc foi 25, você esta abaixo do peso!</h2>
     </div>
   )
 }
