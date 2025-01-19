@@ -15,7 +15,7 @@ export default function App() {
     } else if (imc >= 18.6 && imc < 24.9) {
       alert('Você esta no peso ideal! Seu IMC: ' + imc.toFixed(2))
     } else if (imc >= 25 && imc < 29.9) {
-      alert(' Vocé esta com levemente acima do peso! Seu IMC: ' + imc.toFixed(2))
+      alert(' Vocé esta levemente acima do peso! Seu IMC: ' + imc.toFixed(2))
     } else if (imc < 34.9) {
       alert('Cuidado obesidade! Seu IMC: ' + imc.toFixed(2))
     }
@@ -42,7 +42,7 @@ export default function App() {
           Calcular
         </button>
       </div>
-      <h2>Seu imc foi 25, você esta abaixo do peso!</h2>
+      <h2>Seu imc foi 17, você esta abaixo do peso!</h2>
     </div>
   )
 }
